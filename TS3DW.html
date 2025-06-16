@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rincón del Cóctel - Bar temático</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="assets/img/logo.png" alt="Logo El Rincón del Cóctel" class="logo">
+        <h1>El Rincón del Cóctel</h1>
+        <p>Donde cada trago cuenta una historia</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#reservas">Reservas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos a nuestro bar</h2>
+            <article>
+                <h3>Una experiencia única</h3>
+                <img src="assets/img/bar-interior.jpg" alt="Interior del bar con iluminación cálida" class="destacada">
+                <p>En <strong>El Rincón del Cóctel</strong> nos especializamos en crear <em>experiencias memorables</em> a través de nuestras bebidas artesanales y ambiente acogedor.</p>
+                <p>Nuestros mixólogos han ganado varios premios internacionales por sus creaciones innovadoras.</p>
+            </article>
+
+            <video controls class="video-presentacion">
+                <source src="assets/video/bar-ambiente.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </section>
+
+        <section id="menu">
+            <h2>Nuestra carta de cócteles</h2>
+            <article>
+                <h3>Los clásicos</h3>
+                <ul>
+                    <li>Old Fashioned - $12</li>
+                    <li>Negroni - $11</li>
+                    <li>Martini - $13</li>
+                    <li>Mojito - $10</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Nuestras creaciones signature</h3>
+                <ol>
+                    <li>Memories of Havana (ron, jugo de piña, lima, angostura) - $14</li>
+                    <li>Smoky Sunset (mezcal, aperol, jugo de toronja) - $15</li>
+                    <li>Garden Gimlet (gin, almíbar de pepino, lima) - $13</li>
+                </ol>
+            </article>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cóctel</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Margarita</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td>Piña Colada</td>
+                        <td>$11</td>
+                    </tr>
+                    <tr>
+                        <td>Daiquiri</td>
+                        <td>$12</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <img src="assets/img/cocktail.jpg" alt="Cóctel colorido decorado con frutas" class="cocktail-img">
+        </section>
+
+        <section id="eventos">
+            <h2>Eventos especiales</h2>
+            <article>
+                <h3>Noches temáticas</h3>
+                <p>Únete a nuestras noches especiales:</p>
+                <ul>
+                    <li><strong>Miércoles de Jazz:</strong> Música en vivo y cócteles clásicos</li>
+                    <li><em>Viernes de Tiki:</em> Cócteles tropicales y decoración hawaiana</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="reservas">
+            <h2>Reserva tu mesa</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+
+                <label for="personas">Número de personas:</label>
+                <input type="number" id="personas" name="personas" min="1" max="10" required>
+
+                <button type="submit">Reservar</button>
+            </form>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Visítanos en: Calle Mixología 123, Ciudad</p>
+            <p>Teléfono: 555-123-4567</p>
+            <p>Síguenos en <a href="https://www.instagram.com" target="_blank">Instagram</a> para las últimas novedades</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 El Rincón del Cóctel. Todos los derechos reservados.</p>
+        <p>Horario: Lunes a Sábado de 17:00 a 02:00</p>
+    </footer>
+</body>
+</html>
